@@ -1,0 +1,101 @@
+/* classes to define general component behavior */
+
+.sectionDiv{
+	border: 2px solid;
+	margin-top:12px;
+	clear:both;
+	overflow:hidden;
+}
+
+.sectionTitleDiv{
+	border-bottom: 2px solid;
+	padding:8px;
+
+	font-size:24px;
+	font-family:"Verdana";
+}
+
+.sectionContentDiv{
+	padding:8px;
+
+	font-size:20px;
+	font-family:"Verdana";
+}
+
+/* image sizing */
+
+#brainMunculusImage{
+	max-width:500px;
+	float:right;
+}
+
+#card1Image{
+	max-width:500px;
+	float:left;
+}
+#card2Image{
+	max-width:450px;
+	float:right;
+}
+#lengthMatchImage{
+	float:left;
+}
+
+
+.measurementImage {
+	/* class contains all the images showing where to measure (head, torso, etc) */
+	padding-top:8px;
+	max-width:200px;
+	vertical-align: top;
+}
+
+
+#bodyHomunculusImage{
+	max-width:400px;
+	float:left;
+}
+
+/* individual div properties */
+
+#pageDiv {
+	max-width:1024px;
+	margin: 0 auto; 
+}
+
+#introText {
+	max-width:500;
+	float:left;
+}
+
+#contentsDiv {
+	border:2px solid;
+}
+
+#measureInstructionsDiv{
+	float:left;
+	max-width:550px;
+}
+
+#measurementImagesDiv{
+	float:right;
+	max-width:416px;
+	overflow: auto;
+}
+
+#resultsTextDiv{
+	float:right;
+	max-width:600px;
+}
+
+.experimenterDiv {
+	padding-top:1em;
+	color:red;
+}
+.testSubjectDiv {
+	padding-top:1em;
+	color:green;
+}
+.dataCollectorDiv {
+	padding-top:1em;
+	color:blue;
+}
