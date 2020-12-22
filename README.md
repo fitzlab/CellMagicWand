@@ -51,6 +51,12 @@ In particular, setting the maximum diameter lower can prevent Cell Magic Wand fr
 
 **Shift-clicking:** Hold down SHIFT to select multiple cells. The ROI manager will appear and keep track of your selections. Shift-clicking on a cell you've already selected will deselect it.
 
+**Measure cell diameter:** Use the Line ROI tool to draw a line across your cell. Length will be shown in the ImageJ main window, or you can press Ctrl+M to bring up a measurement. If your units aren't in pixels, you must change the units to pixels first: do Analyze->Set Scale->Click to remove scale, and click OK.
+
+![Measure length](img/measureLength.png)
+
+This will help you determine good values for Minimum and Maximum Diameter.
+
 **Hide ROIs from other slices:** If you're working with an image stack, you may want to make it so that ROIs only show up on the slice they came from. From the ROI manager window, choose More->Options->Associate "Show All" ROIs with slices.
 
 **Median Filtering:** If there is significant contrast variability inside of your cells, try using a median filter to blur out those elements first. Process->Filters->Median.
@@ -62,10 +68,6 @@ In particular, setting the maximum diameter lower can prevent Cell Magic Wand fr
 (1) Original image, (2) Median-filtered image, (3) ROI drawn on median filtered image, (4) ROI on original image.
 
 **Multichannel and RGB Images:** The first channel, or the red color, will be what Cell Magic Wand sees. Convert images to grayscale or split channels if you want to detect cells in a different channel.
-
-**Quickly measure cell diameter:** Use the Line ROI tool to draw a line across your cell. Length will be shown in the ImageJ main window, or you can press Ctrl+M to bring up a measurement. If your units aren't in pixels, you must change the units to pixels first: do Analyze->Set Scale->Click to remove scale, and click OK.
-
-![Measure length](img/measureLength.png)
 
 ### Credits
 
